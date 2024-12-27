@@ -1,3 +1,8 @@
+# Don't Remove Credit Tg - https://t.me/Prime_Botz
+# Subscribe Telegram Channel For Amazing Bot https://t.me/Prime_Botz
+# Support Group Tg ➠ https://t.me/Prime_Botz_Support
+# Ask Doubt on HTTPS://T.ME/MR_PRIME_SUPREME
+
 from utils import *
 from pyrogram import Client, filters 
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton 
@@ -10,7 +15,7 @@ async def start(bot, message):
         disable_web_page_preview=True,
         reply_markup=InlineKeyboardMarkup([
             [
-                InlineKeyboardButton('➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕', url='http://t.me/yourfindbot?startgroup=true')
+                InlineKeyboardButton('➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕', url='https://t.me/Post_Finder_Prime_Bot?startgroup=true')
             ],
             [
                 InlineKeyboardButton("ʜᴇʟᴘ", callback_data="misc_help"),
@@ -18,6 +23,9 @@ async def start(bot, message):
             ],
             [
                 InlineKeyboardButton("💬 ᴩʀɪᴍᴇ ʙᴏᴛᴢ ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ 💬", url="https://t.me/Prime_Botz_Support")
+            ],
+            [
+                InlineKeyboardButton("☆ 💫 𝗖𝗥𝗘𝗔𝗧𝗢𝗥 💫 ☆", url="https://t.me/MR_PRIME_SUPREME")
             ]
         ])
     )
@@ -60,10 +68,30 @@ async def misc(bot, update):
     if data=="home":
        await update.message.edit(text=script.START.format(update.from_user.mention),
                                  disable_web_page_preview=True,
-                                 reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("ʜᴇʟᴘ", callback_data="misc_help"),
-                                                            InlineKeyboardButton("ᴀʙᴏᴜᴛ", callback_data="misc_about")]])) 
+reply_markup=InlineKeyboardMarkup([
+    [
+        InlineKeyboardButton('➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕', url='http://t.me/Post_Finder_Prime_Bot?startgroup=true')
+    ],
+    [
+        InlineKeyboardButton("ʜᴇʟᴘ", callback_data="misc_help"),
+        InlineKeyboardButton("ᴀʙᴏᴜᴛ", callback_data="misc_about")
+    ],
+    [
+        InlineKeyboardButton("💬 ᴩʀɪᴍᴇ ʙᴏᴛᴢ ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ 💬", url="https://t.me/Prime_Botz_Support")
+    ],
+    [
+        InlineKeyboardButton("☆ 💫 𝗖𝗥𝗘𝗔𝗧𝗢𝗥 💫 ☆", url="https://t.me/MR_PRIME_SUPREME")
+    ]
+]))
     elif data=="help":
        await update.message.edit(text=script.HELP, 
+
+                                 
+# Don't Remove Credit Tg - https://t.me/Prime_Botz
+# Subscribe Telegram Channel For Amazing Bot https://t.me/Prime_Botz
+# Support Group Tg ➠ https://t.me/Prime_Botz_Support
+# Ask Doubt on HTTPS://T.ME/MR_PRIME_SUPREME
+                             
                                  disable_web_page_preview=True,
                                  reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("⬅️ Back", callback_data="misc_home")]])) 
 
