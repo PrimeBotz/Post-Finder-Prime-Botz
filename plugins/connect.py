@@ -39,7 +39,7 @@ async def connect(bot, message):
           text = f"❌ Error: `{str(e)}`\nMake sure I'm admin in that channel & this group with all permissions and <a href='https://t.me/Prime_Nayem'>ᴍʀ.ᴘʀɪᴍᴇ</a> is not banned there"
           return await m.edit(text)
     await update_group(message.chat.id, {"channels":channels})
-    await m.edit(f"✅ Successfully connected to [{chat.title}]({c_link})!", disable_web_page_preview=True)
+    await m.edit(f"✅ Successfully connected to [{chat.title}]({c_link})!\n\n একটা কথা বলি মনোযোগ দিয়ে শুনেন এডমিন ,\n অনেক সময় হঠাৎ করে একটু সমস্যা হয় যখন দেখবেন কোন কাজ করছে না বা কোন সমস্যা করছে বা রেস্পন্স করছে না তখন [{chat.title}]({c_link}) 👈 এখানে গিয়ে একবার /Start দিবেন তাহলে সুন্দর করে কাজ করবে আবার ধন্যবাদ\n\nLet me tell you something, listen carefully, admin,\n sometimes there is a sudden problem when you see that something is not working or having a problem or not responding. [{chat.title}]({c_link}) 👈 Go here and hit /Start once, it will work fine, thanks again.", disable_web_page_preview=True)
     text = f"#NewConnection\n\nUser: {message.from_user.mention}\nGroup: [{group.title}]({g_link})\nChannel: [{chat.title}]({c_link})"
     await bot.send_message(chat_id=LOG_CHANNEL, text=text)
 
