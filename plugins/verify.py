@@ -54,3 +54,10 @@ async def verify_(bot, update):
        await delete_group(id)
        await bot.send_message(chat_id=user, text=f"Your verification request for {name} has been declined 😐 Please Contact Admin")
        await update.message.edit(update.message.text.html.replace("#NewRequest", "#Declined"))
+
+
+# Don't Remove Credit Tg - https://t.me/Prime_Botz
+# Subscribe Telegram Channel For Amazing Bot https://t.me/Prime_Botz
+# Support Group Tg ➠ https://t.me/Prime_Botz_Support
+# Ask Doubt on HTTPS://T.ME/MR_PRIME_SUPREME
+
