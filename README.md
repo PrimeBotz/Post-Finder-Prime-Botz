@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://envs.sh/zpt.jpg" alt="PRIME-POST-SEARCH-BOT Logo">
+  <img src="https://envs.sh/o5L.jpg" alt="PRIME-POST-SEARCH-BOT Logo">
 </p>
 <h1 align="center">
   Post-Finder-Prime-Botz
